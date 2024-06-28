@@ -1,0 +1,163 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    background-color: #fefae0;
+}
+
+.header{
+width:100%;
+background-color: #283618;
+color:#fefae0;
+padding:0.5%;
+}
+
+.header > h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    
+}
+.navlinks{
+width:100%;
+
+
+
+}
+.navlinks ul{
+display: flex;
+justify-content: center;
+background-color: #bc6c25;
+gap:5px;
+}
+
+.link{
+  list-style-type: none;
+  padding:1%;
+    font-size:24px;
+ 
+    cursor:pointer;
+
+}
+
+.link a{
+
+    text-decoration: none;
+    color:#fefae0;
+}
+
+.sidebar{
+    width:100%;
+
+    padding:2%;
+ 
+
+}
+.image-container img{
+    width:100%;
+    border-radius: 100%;
+}
+
+.container{
+    display: flex;
+    padding:8% 0%;
+  
+}
+
+
+.about{
+    padding:4% 2%;
+}
+
+.about-title{
+    font-size: 32px;
+    font-weight: 500;
+    
+}
+.about-content{
+    padding:1% 0%;
+    font-size: 20px;
+
+}
+.contacts{
+
+    padding:1%;
+    margin:1%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    gap:30px;
+    padding-top: 2%;
+
+}
+
+.user{
+   
+    width:10%;
+}
+.contacts p{
+    line-height: 2;
+    font-size: 16px;
+    padding-inline: 10px;
+}
+.number{
+    display: flex;
+  width:50%;
+  
+
+  
+}
+.number img{
+    width:32px;
+    height:32px;
+}
+
+
+
+
+
+.footer{
+ 
+    background-color:#283618 ;
+    padding:1%;
+    text-align: center;
+    
+    color:#fefae0;
+}
+
+
+.skills{
+    width:100%;
+
+    display: flex;
+}
+.skill{
+
+    display: flex;
+    padding:2%;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-text{
+    padding:5%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.skills-sidebar{
+    width:20%;
+    padding:2%;
+}
+.skills-container{
+    display: flex;
+    padding:9% 0%; 
+}
+.skills-title{
+    font-size: 32px;
+    font-weight: 500;
+    
+}
